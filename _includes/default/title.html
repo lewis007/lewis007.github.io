@@ -1,0 +1,11 @@
+<section class="jumbotron">
+    <div class="text-center">
+        <h1 class="jumbotron-heading">{{ site.title.name }}</h1>
+        <p class="lead text-muted">{{ site.title.description }}</p>
+        <p>
+            <a class="btn btn-outline-success my-2" target="_blank"
+                href="{{ site.author.name | prepend: 'https://github.com/' }}">My GitHub</a>
+            <a class="btn btn-outline-danger my-2" href="{{ '/' | prepend: site.baseurl }}">Home Page</a>
+        </p>
+    </div>
+</section>

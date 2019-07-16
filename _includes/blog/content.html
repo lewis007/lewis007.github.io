@@ -1,0 +1,24 @@
+{% include blog/aside.html %}
+
+<div class="col-9">
+    {{ content }}
+
+    <nav class="blog-pagination">
+        <!-- Older -->
+        {% if page.next %}
+        <a class="btn btn-outline-danger" href="{{ page.next.url }}">Newer</a>
+        {% else %}
+        <a class="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Newer</a>
+        {% endif %}
+
+        <!-- Home -->
+        <a class="btn btn-outline-danger" href="{{ '/' | prepend: site.baseurl }}">Home</a>
+
+        <!-- Newer -->
+        {% if page.previous %}
+        <a class="btn btn-outline-danger" href="{{ page.previous.url }}">Older</a>
+        {% else %}
+        <a class="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Older</a>
+        {% endif %}
+    </nav>
+</div>

@@ -1,0 +1,22 @@
+# Settings for Site
+author:
+  name: lewis007
+  fullName: Lewis Lu
+  description: 自强不息 厚德载物
+title:
+  name: Coder
+  description: Focus on Java, Swift, Spring, Microservices, CI, Docker.
+  about: Stay Hungry, Stay Foolish.
+3rd:
+  baidu-hm: 2ba9b583831274c64c2e68b7065e9bcb
+
+# Settings for Build
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+# Settings for Page
+paginate: 30
+paginate_path: "page/:num"

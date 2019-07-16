@@ -1,0 +1,21 @@
+---
+layout: tag
+title: Tags
+permalink: /tags
+---
+
+{% include tag/tags %}
+
+{% for tag in sorted_tags %}
+<h3 class="pb-3 mb-3 font-italic blog-title" id="{{ tag }}">Tag: {{ tag }}</h3>
+
+    {% for post in site.tags[tag] %}
+        <div class="blog-post mx-2 pb-2 row justify-content-between">
+            <div class="col-10 blog-column">
+                <a class="card-link" href="{{ post.url }}">{{ post.title }}</a>
+            </div>
+            <div class="col-2 blog-column text-right">{{ post.date | date: '%b %d, %Y' }}</div>
+        </div>
+    {% endfor %}
+
+{% endfor %}

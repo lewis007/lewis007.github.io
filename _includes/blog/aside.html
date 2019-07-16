@@ -1,0 +1,30 @@
+<aside class="col-3">
+    <div class="p-4 mb-3 bg-light rounded">
+        <div class="row">
+            <div class="col-4">Author:</div>
+            <div class="col-8 font-italic">
+                {% if page.author %}{{ page.author }}{% else %}{{ site.author.name }}{% endif %}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">Date:</div>
+            <div class="col-8 font-italic">
+                {% if page.time %}{{ page.time | date: '%b %d, %Y' }}{% else %}{{ page.date | date: '%b %d, %Y' }}{% endif %}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">Category:</div>
+            <div class="col-8 font-italic">
+                {% assign sorted_categories = page.categories %}
+                {% for category in sorted_categories %}<a href="{{ '/categories' | prepend: site.baseurl }}#{{ category }}">{{ category }}</a> ({{ site.categories[category].size }})<br/>{% endfor %}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">Tags:</div>
+            <div class="col-8 font-italic">
+                {% assign sorted_tags = page.tags %}
+                {% for tag in sorted_tags %}<a href="{{ '/tags' | prepend: site.baseurl }}#{{ tag }}">{{ tag }}</a> ({{ site.tags[tag].size }})<br/>{% endfor %}
+            </div>
+        </div>
+    </div>
+</aside>

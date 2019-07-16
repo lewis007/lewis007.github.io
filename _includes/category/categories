@@ -1,0 +1,7 @@
+{% capture categories %}
+    {% for category in site.categories %}
+        {{ category[0] | replace:' ','&#32;' }}
+    {% endfor %}
+{% endcapture %}
+
+{% assign sorted_categories = categories | split:' ' | sort %}

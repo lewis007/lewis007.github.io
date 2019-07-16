@@ -1,0 +1,7 @@
+{% capture tags %}
+    {% for tag in site.tags %}
+        {{ tag[0] | replace:' ','&#32;' }}
+    {% endfor %}
+{% endcapture %}
+
+{% assign sorted_tags = tags | split:' ' | sort %}
