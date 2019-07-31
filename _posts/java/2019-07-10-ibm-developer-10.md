@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: 在 Spring Boot 项目中使用 Swagger 文档
+title: IBM Developer：在 Spring Boot 项目中使用 Swagger 文档
 author: 甘朝阳
 time: 2019-03-18
 categories: IBM-Developer

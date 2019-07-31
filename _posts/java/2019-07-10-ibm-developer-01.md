@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: 用 Quartz 进行作业调度
+title: IBM Developer：用 Quartz 进行作业调度
 subtitle: Quartz API 采用多面方式在 Java 应用程序中进行任务调度
 author: Michael Lipton 和 Soobaek Jang
 time: 2006-12-28

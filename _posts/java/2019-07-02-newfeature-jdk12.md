@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Java 12 新特性概述
+title: IBM Developer：Java 12 新特性概述
 author: 李林锋
 time: 2019-06-05
 categories: IBM-Developer

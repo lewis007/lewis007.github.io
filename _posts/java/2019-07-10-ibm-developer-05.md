@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: 使用 Reactor 进行反应式编程
+title: IBM Developer：使用 Reactor 进行反应式编程
 author: 成富
 time: 2019-05-05
 categories: IBM-Developer

@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: 深入理解 Java 函数式编程，第 5 部分
+title: IBM Developer：深入理解 Java 函数式编程，第 5 部分
 subtitle: 深入解析 Monad
 author: 成富
 time: 2018-12-03

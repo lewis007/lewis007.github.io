@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: 深入理解 Java 函数式编程，第 2 部分
+title: IBM Developer：深入理解 Java 函数式编程，第 2 部分
 subtitle: 函数式编程中的重要概念
 author: 成富
 time: 2018-12-03

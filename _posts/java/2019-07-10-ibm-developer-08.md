@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Spring Boot 基础
+title: IBM Developer：Spring Boot 基础
 subtitle: 开始使用 Spring Boot 编写能直接运行的 Spring 应用程序
 author: J Steven Perry
 time: 2019-05-05

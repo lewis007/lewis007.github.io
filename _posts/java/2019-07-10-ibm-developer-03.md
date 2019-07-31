@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: HTTP/2 幕后原理
+title: IBM Developer：HTTP/2 幕后原理
 subtitle: HTTP/2 的请求/响应复用、报头压缩和服务器推送如何提升网站性能
 author: Alex Theedom
 time: 2017-08-02

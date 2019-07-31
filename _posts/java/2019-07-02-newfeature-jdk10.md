@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Java 10 新特性介绍
+title: IBM Developer：Java 10 新特性介绍
 author: 李林锋
 time: 2018-07-03
 categories: IBM-Developer

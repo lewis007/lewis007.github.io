@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: 深入理解 Java 函数式编程，第 4 部分
+title: IBM Developer：深入理解 Java 函数式编程，第 4 部分
 subtitle: 使用 Vavr 进行函数式编程
 author: 成富
 time: 2018-12-03

@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: 透彻的掌握 Spring 中 @transactional 的使用
+title: IBM Developer：透彻的掌握 Spring 中 @transactional 的使用
 author: 刘万振
 time: 2019-05-05
 categories: IBM-Developer

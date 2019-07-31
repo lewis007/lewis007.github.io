@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Java 11 新特性介绍
+title: IBM Developer：Java 11 新特性介绍
 author: 李林锋
 time: 2019-03-18
 categories: IBM-Developer

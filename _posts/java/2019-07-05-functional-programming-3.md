@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: 深入理解 Java 函数式编程，第 3 部分
+title: IBM Developer：深入理解 Java 函数式编程，第 3 部分
 subtitle: Java 8 的 Lambda 表达式和流处理
 author: 成富
 time: 2018-12-03

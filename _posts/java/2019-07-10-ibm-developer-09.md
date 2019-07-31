@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: 使用 Spring Boot 快速构建 Spring 框架应用
+title: IBM Developer：使用 Spring Boot 快速构建 Spring 框架应用
 author: 成富
 time: 2014-09-15
 categories: IBM-Developer

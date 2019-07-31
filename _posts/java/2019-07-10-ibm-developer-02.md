@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: 通过实例理解 JDK8 的 CompletableFuture
+title: IBM Developer：通过实例理解 JDK8 的 CompletableFuture
 subtitle: 理解 CompletableFuture
 author: 周明耀
 time: 2018-03-27

@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Java 8 新特性概述
+title: IBM Developer：Java 8 新特性概述
 author: 唐学波、林宝川、俞顺杰
 time: 2014-10-20
 categories: IBM-Developer

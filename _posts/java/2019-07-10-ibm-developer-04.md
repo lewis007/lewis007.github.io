@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Spring Framework 5 中的新特性
+title: IBM Developer：Spring Framework 5 中的新特性
 subtitle: Spring 5 如何利用 Java 8 的函数式语法和一种新的反应式编程模型
 author: Alex Theedom
 time: 2017-10-18

@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Java 9 新特性概述
+title: IBM Developer：Java 9 新特性概述
 author: 成富
 time: 2017-12-28
 categories: IBM-Developer
