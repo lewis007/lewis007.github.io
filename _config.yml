@@ -7,8 +7,6 @@ title:
   name: Coder
   description: Focus on Java, Swift, Spring, Microservices, CI, Docker.
   about: Stay Hungry, Stay Foolish.
-3rd:
-  baidu-hm: 2ba9b583831274c64c2e68b7065e9bcb
 
 # Settings for Build
 markdown: kramdown
